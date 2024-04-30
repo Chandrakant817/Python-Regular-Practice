@@ -1,7 +1,7 @@
 # I/P = [5,3,1,4,3,7,6,9,1]
 # O/P = Maximum product is : (7,9)
 
-ef max_product(arr):
+def max_product(arr):
     try:
         if len(arr) < 2:
             raise ValueError("Array must contain at least two elements")
